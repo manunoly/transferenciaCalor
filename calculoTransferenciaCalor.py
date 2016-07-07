@@ -140,7 +140,7 @@ for datoExcel in datosExcel:
         print mejorTfN
         print mejorTwN
         print restaFN
-#        print datoExcel[1] '''
+        print datoExcel[1] '''
 with open("/home/manuel/andreitaTest/juanpi/Output.csv", "w") as text_file:
     for content in contenedor:
         text_file.write(format(content))
